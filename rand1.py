@@ -1,6 +1,6 @@
 import random
 import string
-nouns = ["Dinesh","Tanu","Chandu","Poorna","Lokesh","Charan","Suma","Siri","Geetha","Anu","Manju"]
+nouns = ["Dinesh","Chandu","Poorna","Lokesh","Charan","Suma","Siri","Geetha","Tanu","Anu","Manju"]
 adjectives=["Shiny","Fast","Silly","Wild","Cool","Happy","Brave","Clever","Fierce","Swift","Bold","Lively"]
 def generate_username(include_numbers=True,include_special_chars=True,length=None):
     adj=random.choice(adjectives)
